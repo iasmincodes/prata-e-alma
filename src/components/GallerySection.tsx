@@ -16,7 +16,7 @@ const pieces = [
   { src: gallery6, name: "Corrente Artesanal", aspect: "aspect-[2/3]" },
 ];
 
-const transition = { duration: 0.8, ease: [0.22, 1, 0.36, 1] };
+const transition = { duration: 0.8, ease: [0.22, 1, 0.36, 1] as const };
 
 const GallerySection = () => {
   const [selected, setSelected] = useState<number | null>(null);

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-ring.jpg";
 
-const transition = { duration: 0.8, ease: [0.22, 1, 0.36, 1] };
+const transition = { duration: 0.8, ease: [0.22, 1, 0.36, 1] as const };
 
 const HeroSection = () => {
   return (
